@@ -45,6 +45,19 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+
+.settings
+.uceditor
+GNU ARM v12.2.1 - Default
+
+# Project
+*.cproject
+*.project
+*.projectlinkstore
+*.pintool
+*.slcp
+*.slps
+
 .tmp_versions/
 modules.order
 Module.symvers
