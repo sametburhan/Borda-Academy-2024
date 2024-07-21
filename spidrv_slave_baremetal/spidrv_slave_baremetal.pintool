@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32BG13P632F512GM48" partId="mcu.arm.efr32.bg13.efr32bg13p632f512gm48" contextId="com.silabs.sdk.stack.super:4.4.0._-542133926">
+  <mode name="DefaultMode">
+    <property object="DBG" propertyId="ABModule.selectedRequirement" value="dbg%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
+    <property object="DBG" propertyId="ABPeripheral.included" value="true"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="PA0" propertyId="pin.name" value=""/>
+    <property object="PA1" propertyId="pin.name" value=""/>
+    <property object="PC6" propertyId="pin.name" value=""/>
+    <property object="PC7" propertyId="pin.name" value=""/>
+    <property object="PC8" propertyId="pin.name" value=""/>
+    <property object="PC9" propertyId="pin.name" value=""/>
+    <property object="PORTIO" propertyId="portio.dbg.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.clk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.cs" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.clk" value="11"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.cs" value="11"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.rx" value="11"/>
+    <property object="PORTIO" propertyId="portio.usart1.location.tx" value="11"/>
+    <property object="USART1" propertyId="ABModule.selectedRequirement" value="usart%T%SL_SPIDRV_USART_SPI%T%sl_spidrv_usart_spi_config.h"/>
+    <property object="USART1" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
