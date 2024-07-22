@@ -105,10 +105,9 @@ void spidrv_app_process_action(void)
   Frame_t spi_frame;
   Ecode_t ecode;
 
-  /**
-   * first loop
-   */
+  // In the first loop, RX buffer is cleared to prevent the warning.
   static bool first_loop_flag = true;
+
   if (first_loop_flag)
   {
     clear_RX_buffer(&spi_frame);

@@ -31,7 +31,7 @@ const char command_pres[] = "Pressure";
 const char command_data[] = "Data";
 
 /*******************************************************************************
- **************************   LOCAL FUNCTIONS   *******************************
+ **************************   LOCAL FUNCTIONS   ********************************
  ******************************************************************************/
 static void user_command_control(char *buffer, uint8_t len, bool *print_welcome);
 static void init_sensor(void);
@@ -88,8 +88,7 @@ void init_sensor(void)
 /*******************************************************************************
  * Ticking functions
  ******************************************************************************/
-    ****************************************************************************** /
-    void app_iostream_eusart_process_action(void)
+void app_iostream_eusart_process_action(void)
 {
   int8_t c = 0;
   static bool completed = false;
