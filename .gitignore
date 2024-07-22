@@ -58,11 +58,17 @@ GNU ARM v12.2.1 - Default
 *.slcp
 *.slps
 
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-outgoing
-.browser
-.metadata
+*.tmp_versions/
+*modules.order
+*Module.symvers
+*Mkfile.old
+*dkms.conf
+*outgoing
+*.browser
+*.metadata
+*.vscode
+*gecko_sdk_4.4.0
+*autogen
+*config
+*.settings
+*.uceditor
